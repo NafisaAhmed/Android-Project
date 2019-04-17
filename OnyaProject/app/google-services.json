@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "725213473821",
+    "firebase_url": "https://onyaproject.firebaseio.com",
+    "project_id": "onyaproject",
+    "storage_bucket": "onyaproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725213473821:android:937f07d7a48aa9fc",
+        "android_client_info": {
+          "package_name": "com.example.user.onyaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY9bKYF1pAxS2TbA-LNmbTQaZbNG1bdnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725213473821-91ar10k4i79b1rebftl235vvf9n1qd4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

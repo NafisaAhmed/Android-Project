@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.user.onyaproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rice"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/rice"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="alndroid:icon">
+        <activity android:name=".CartActivity"></activity>
+        <activity android:name=".FoodDetailsActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".AdminCategoryActivity" />
+        <activity android:name=".AdminAddNewProductActivity" />
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".WelcomeScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+    </application>
+
+</manifest>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+
+ >
+
+
+    <LinearLayout
+        android:id="@+id/category1layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/bengali_food"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/bengali_food" />
+
+        <ImageView
+            android:id="@+id/biriyani"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/biriyani"
+
+            />
+
+        <ImageView
+            android:id="@+id/fried_rice"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/fried_rice" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/category2layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category1layout"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp">
+
+
+        <ImageView
+            android:id="@+id/fish"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/fish"
+
+            />
+
+
+
+        <ImageView
+            android:id="@+id/chicken"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chicken"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/indian_food"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/indian_food"
+            />
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/category3layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category2layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:id="@+id/burger"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/burger"
+            />
+
+
+        <ImageView
+            android:id="@+id/pizza"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pizza"
+            />
+        <ImageView
+            android:id="@+id/pasta"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pasta"
+            />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/category4layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/category3layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        >
+        <ImageView
+            android:id="@+id/coffee"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cofee"
+            />
+        <ImageView
+            android:id="@+id/dessert"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/dessert"
+
+            />
+
+        <ImageView
+            android:id="@+id/soup"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/soup"
+            />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
